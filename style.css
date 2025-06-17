@@ -1,0 +1,136 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Détail Produit */
+.product-detail {
+    display: flex;
+    flex-wrap: wrap; /* Pour la réactivité */
+    gap: 30px;
+    padding: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.product-info {
+    flex: 1;
+    min-width: 300px; /* Taille minimale pour l'info */
+}
+
+.product-info h1 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.product-info .price {
+    font-size: 1.8rem;
+    color: #e67e22; /* Une couleur d'accent pour le prix */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-info .description {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.product-info .options label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.product-info .options input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-to-cart-btn {
+    background-color: #28a745; /* Vert pour l'action */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
+
+.main-header .logo a {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.main-header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.main-header .logo h1 {
+    font-size: 1.8em;
+    margin: 0;
+}

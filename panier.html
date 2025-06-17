@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Panier - KARPE CRÉATION</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="c:\Users\Pc\Pictures\k.jpg" alt="Logo KARPE CRÉATION">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Nos Produits</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart-summary">
+            <h1>Votre Panier</h1>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="c:\Users\Pc\Pictures\OIP (1).webp" alt="Produit 1">
+                    <div class="item-details">
+                        <h3>Nom du Produit 1</h3>
+                        <p>Prix unitaire: 20000fcfa</p>
+                        <div class="item-quantity">
+                            <label for="qty1">Quantité:</label>
+                            <input type="number" id="qty1" value="1" min="10" data-item-id="1">
+                            <button class="remove-item">Supprimer</button>
+                        </div>
+                        <p class="item-total">Total: 20000fcfa</p>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="c:\Users\Pc\Pictures\o.jpg" alt="Produit Star 2">
+                    <div class="item-details">
+                        <h3>Nom du Produit Star 2</h3>
+                        <p>1500cfa</p>
+                        <div class="item-quantity">
+                            <label for="qty2">Quantité:</label>
+                            <input type="number" id="qty2" value="2" min="10" data-item-id="2">
+                            <button class="remove-item">Supprimer</button>
+                        </div>
+                        <p class="item-total">Total:</p>
+                    </div>
+                </div>
+                </div>
+                  <div class="cart-item">
+                    <img src="c:\Users\Pc\Pictures\c.jpg" alt="Produit Star 3">
+                    <div class="item-details">
+                        <h3>Nom du Produit Star 3</h3>
+                        <p>1500cfa</p>
+                        <div class="item-quantity">
+                            <label for="qty2">Quantité:</label>
+                            <input type="number" id="qty3" value="3" min="10" data-item-id="3">
+                            <button class="remove-item">Supprimer</button>
+                        </div>
+                        <p class="item-total">Total:</p>
+                    </div>
+                </div>
+                </div>
+
+            <div class="cart-totals">
+                <p>Sous-total: <span id="subtotal">fcfa</span></p>
+                <p>Livraison: <span id="shipping">fcfa</span></p>
+                <p class="grand-total">Total à payer: <span id="grandTotal">cfa</span></p>
+            </div>
+
+            <div class="cart-actions">
+                <a href="produits.html" class="btn-secondary">Continuer mes achats</a>
+                <button class="btn-primary" id="checkout-btn">Passer à la caisse</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 KARPE CRÉATION. Tous droits réservés.</p>
+            <div class="social-media">
+               <a href="https://www.facebook.com/Chancy Kodongo" target="_blank">
+                  <img src="\Users\Pc\Pictures\p.webp" alt="Facebook Profile">
+              </a>
+                <a href="https://wa.me/+2250700823938" target="_blank"><img src="c:\Users\Pc\Pictures\t.webp" alt="WhatsApp"></a>
+
+                </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
